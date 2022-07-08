@@ -1,16 +1,16 @@
-### Hi there 👋
+@@ -0,0 +1,15 @@
+{
+    "configurations": [
+    {
+        "name": "connect to qemu gdb",
+        "type": "gdb",
+        "request": "attach",        // Attach to remote
+        "target": "localhost:1234", // Address of remote
+        "executable": "${workspaceRoot}/SalieriOS.elf",    // Path to file who contain symbols
+        "gdbpath": "gdb",           // Path to gdb
+        "cwd": "${workspaceRoot}",
 
-<!--
-**Kihali/Kihali** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        "remote": true
+    }
+    ]
+} 
